@@ -1,0 +1,76 @@
+Parameters:
+Benchmark Type =  CassLwt
+Num readWrite Thread =  10
+Num readOnly Thread =  0
+Num Op Per Thread =  10000
+[OVERALL], Timestamp, 2019-11-26 14:14:26.210887298 +0000 UTC m=+23.341763754
+[OVERALL], RunTime(sec), 18.872
+[OVERALL], Throughput(ops/sec), 5298.749
+[READ], Operations, 50000
+[READ], AverageLatency(us), 1139.629
+[READ], 95thPercentileLatency(us), 1419.576
+[WRITE], Operations, 50000
+[WRITE], AverageLatency(us), 2597.257
+[WRITE], 95thPercentileLatency(us), 3149.738
+
+
+Parameters:
+Benchmark Type =  CassLwt
+Num readWrite Thread =  10
+Num readOnly Thread =  10
+Num Op Per Thread =  10000
+[OVERALL], Timestamp, 2019-11-26 14:14:45.968157863 +0000 UTC m=+43.099034344
+[OVERALL], RunTime(sec), 19.714
+[OVERALL], Throughput(ops/sec), 10145.052
+[READ], Operations, 150000
+[READ], AverageLatency(us), 1217.668
+[READ], 95thPercentileLatency(us), 1693.571
+[WRITE], Operations, 50000
+[WRITE], AverageLatency(us), 2740.144
+[WRITE], 95thPercentileLatency(us), 3504.423
+
+Parameters:
+Benchmark Type =  CassLwt
+Num readWrite Thread =  10
+Num readOnly Thread =  20
+Num Op Per Thread =  10000
+[OVERALL], Timestamp, 2019-11-26 14:15:08.565038154 +0000 UTC m=+65.695914643
+[OVERALL], RunTime(sec), 22.529
+[OVERALL], Throughput(ops/sec), 13316.197
+[READ], Operations, 250000
+[READ], AverageLatency(us), 1490.887
+[READ], 95thPercentileLatency(us), 2331.222
+[WRITE], Operations, 50000
+[WRITE], AverageLatency(us), 3117.048
+[WRITE], 95thPercentileLatency(us), 4503.674
+
+
+Parameters:
+Benchmark Type =  CassLwt
+Num readWrite Thread =  10
+Num readOnly Thread =  30
+Num Op Per Thread =  10000
+[OVERALL], Timestamp, 2019-11-26 14:15:34.388894735 +0000 UTC m=+91.519771197
+[OVERALL], RunTime(sec), 25.732
+[OVERALL], Throughput(ops/sec), 15545.093
+[READ], Operations, 350000
+[READ], AverageLatency(us), 1777.868
+[READ], 95thPercentileLatency(us), 3032.770
+[WRITE], Operations, 50000
+[WRITE], AverageLatency(us), 3555.759
+[WRITE], 95thPercentileLatency(us), 5550.835
+
+Parameters:
+Benchmark Type =  CassLwt
+Num readWrite Thread =  10
+Num readOnly Thread =  40
+Num Op Per Thread =  10000
+[OVERALL], Timestamp, 2019-11-26 14:16:03.499341787 +0000 UTC m=+120.630218298
+[OVERALL], RunTime(sec), 28.992
+[OVERALL], Throughput(ops/sec), 17246.248
+[READ], Operations, 450000
+[READ], AverageLatency(us), 2097.058
+[READ], 95thPercentileLatency(us), 3814.179
+[WRITE], Operations, 50000
+[WRITE], AverageLatency(us), 3960.159
+[WRITE], 95thPercentileLatency(us), 6498.236

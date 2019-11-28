@@ -1,0 +1,10 @@
+TOKEN=token-04
+CLUSTER_STATE=new
+NAME_1=machine-1
+NAME_2=machine-2
+NAME_3=machine-3
+HOST_1=10.0.0.1
+HOST_2=10.0.0.2
+HOST_3=10.0.0.3
+#CLUSTER=${NAME_1}=http://${HOST_1}:2380
+CLUSTER=${NAME_1}=http://${HOST_1}:2380,${NAME_2}=http://${HOST_2}:2380,${NAME_3}=http://${HOST_3}:2380

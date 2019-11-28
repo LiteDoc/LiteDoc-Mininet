@@ -1,0 +1,14 @@
+Parameters:
+Benchmark Type =  EtcdRaft
+Num readWrite Thread =  10
+Num readOnly Thread =  40
+Num Op Per Thread =  50000
+[OVERALL], Timestamp, 2019-11-27 22:39:20.427177154 +0000 UTC m=+214.345046238
+[OVERALL], RunTime(sec), 213.540
+[OVERALL], Throughput(ops/sec), 11707.409
+[READ], Operations, 2250000
+[READ], AverageLatency(us), 4181.655
+[READ], 95thPercentileLatency(us), 8119.980
+[WRITE], Operations, 250000
+[WRITE], AverageLatency(us), 3888.351
+[WRITE], 95thPercentileLatency(us), 6649.419

@@ -1,0 +1,14 @@
+Parameters:
+Benchmark Type =  CassDef
+Num readWrite Thread =  10
+Num readOnly Thread =  40
+Num Op Per Thread =  3000
+[OVERALL], Timestamp, 2019-11-27 21:48:46.848202968 +0000 UTC m=+317.816118717
+[OVERALL], RunTime(sec), 305.747
+[OVERALL], Throughput(ops/sec), 490.602
+[READ], Operations, 135000
+[READ], AverageLatency(us), 101730.894
+[READ], 95thPercentileLatency(us), 102444.449
+[WRITE], Operations, 15000
+[WRITE], AverageLatency(us), 102372.890
+[WRITE], 95thPercentileLatency(us), 103096.708
